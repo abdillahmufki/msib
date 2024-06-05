@@ -1,0 +1,22 @@
+{
+  "name": "book-self-abdillahmufki",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "dotenv": "^16.4.5",
+    "nanoid": "^3.1.22",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0"
+  }
+}

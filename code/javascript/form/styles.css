@@ -1,0 +1,22 @@
+.contents {
+  border: 2px solid black;
+  padding: 20px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contents h2 {
+  text-align: center;
+}
+
+.form-element {
+  margin: 8px;
+  text-align: left;
+}

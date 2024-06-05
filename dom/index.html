@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Object Model</title>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <button id="btn-incerement" class="btn">1</button>
+    <p id="show-text"></p>
+    <button id="btn-decrement" class="btn">2</button>
+
+    <script>
+      const btnIncerement = document.getElementById("btn-incerement");
+      const btnDecrement = document.getElementById("btn-decrement");
+
+      btnIncerement.addEventListener("click", () => {
+        btnIncerement.textContent = parseInt(btnIncerement.textContent) + 1;
+      });
+
+      btnDecrement.addEventListener("click", () => {
+        btnDecrement.textContent = parseInt(btnDecrement.textContent) - 1;
+      });
+
+      const showText = document.getElementById("show-text");
+    </script>
+  </body>
+</html>
